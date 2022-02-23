@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Account Email Sent {% endblock %}
+{% block content %}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-6  mx-auto">
+            <h3 class="mb-4">Account email sent</h3>
+            <p>Check your email for instructions to activate your account.</p>
+        </div>
+        <a href="{% url 'store:home' %}"> Home page </a>
+    </div>
+</div>
+
+{% endblock %}
